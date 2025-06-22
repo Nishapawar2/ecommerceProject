@@ -1,17 +1,18 @@
 .main{
     display: flex;
+    justify-content: space-between;
 }
 
 .sidebar{
-    width: 25%;
+    width: 350px;
     padding-left: 20px;
    
 }
 
-.products{
+/* .products{
     width: 75%;
    
-}
+} */
 .filterButton{
     color: #888792;
     display: flex;

@@ -40,7 +40,7 @@ const Main = () => {
           {" "}
           <img
             src={arrowDown}
-            alt="album"
+            alt="arrowdown"
             loading="lazy"
             className={styles.arrowLeft}
           />
@@ -53,11 +53,11 @@ const Main = () => {
             <Sidebar />
           </div>
         )}
-        <div className={styles.products}>
-          <main style={{ flex: 1, padding: "1rem" }}>
+        {/* <div className={styles.products}> */}
+          <main style={{padding: "1rem", flex: "1" }}>
             <Productlist />
           </main>
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
