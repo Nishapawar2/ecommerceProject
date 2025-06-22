@@ -1,0 +1,33 @@
+.productImg{
+    width: 200px !important;
+height: 250px !important;
+
+}
+.ProductCard{
+    width: 200px;
+height: 600px;
+margin-right: 50px;
+/* flex: 0 1 calc(33.33% - 40px); */
+/* text-align: center; */
+}
+.title{
+    font-family: Simplon Norm;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.likebutton{
+    color: #888792;   
+    border: none;
+    background-color: transparent;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+    font-family: Simplon Norm;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    text-decoration-style: solid;  
+}

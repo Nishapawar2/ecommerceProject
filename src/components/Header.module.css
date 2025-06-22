@@ -1,0 +1,31 @@
+.logo{
+text-align: center;
+font-weight: 800;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 1px;
+vertical-align: middle;
+}
+.logo{
+    width: 36.000030517578125px;
+height: 36px;
+top: 40px;
+left: 96px;
+margin: 0 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+ul{
+   display: flex;
+   justify-content: space-around;
+   list-style-type:none;
+  
+}
+li{
+    margin-right: 10px;
+}
